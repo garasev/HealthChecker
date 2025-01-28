@@ -21,14 +21,12 @@ func _init():
 	_setup_signals()
 
 func _setup_ui():
-	# Основной лейбл статуса
 	label = Label.new()
 	label.name = "StatusLabel"
 	label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 	label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	add_child(label)
 	
-	# Настройки тултипа
 	mouse_filter = MOUSE_FILTER_STOP
 	custom_minimum_size = Vector2(24, 24)
 
