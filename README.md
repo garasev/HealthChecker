@@ -3,6 +3,8 @@
 [![Godot 4](https://img.shields.io/badge/Godot-4.0-%23478cbf)](https://godotengine.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+![HealthChecker](icon.png)
+
 A Godot plugin that adds a real-time server status monitoring panel with tooltips.  
 Easily track server health, detect outages, and visualize infrastructure reliability.
 
